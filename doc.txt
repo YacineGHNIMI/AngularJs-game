@@ -1,0 +1,36 @@
+Directive:
+  *The ng-app directive initializes an AngularJS application.
+
+  *The ng-init directive initializes application data.
+
+  *The ng-model directive binds the value 
+       of HTML controls (input, select, textarea) 
+        to application data.
+            - Provide type validation for application data (number, email, required).
+            - Provide status for application data (invalid, dirty, touched, error).
+            - Provide CSS classes for HTML elements.
+            - Bind HTML elements to HTML forms.
+
+{{ expression }} <<->> ng-bind="expression"   
+
+  *ng-repeat directive repeats an HTML element: 
+     used on an array of objects
+
+  *Create New Directives: 
+       New directives are created by using the .directive function.
+              template
+              The legal (restrict) values are:
+                                                       E for Element name
+                                                        A for Attribute
+                                                         C for Class
+                                                          M for Comment
+*AngularJS Controllers
+                                    AngularJS applications are controlled by controllers.
+             
+                                   The ng-controller directive defines the application controller.
+
+                                 A controller is a JavaScript Object, created by a standard JavaScript object constructor
+                 contient plusieur methode
+
+$scope is the application object (the owner of application variables and functions)
+
